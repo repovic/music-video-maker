@@ -1,0 +1,22 @@
+{
+  "name": "music-video-maker-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cd src && nodemon .",
+    "start": "cd src && node ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^14.3.2",
+    "express": "^4.17.2",
+    "fluent-ffmpeg": "^2.1.2",
+    "helmet": "^5.0.2",
+    "morgan": "^1.10.0",
+    "ytdl-core": "^4.11.0"
+  }
+}

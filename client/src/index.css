@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: #000000;
+}
+
+::-moz-selection {
+    color: #ffffff;
+    background: #da0037;
+}
+
+::selection {
+    color: #ffffff;
+    background: #da0037;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #da0037;
+}
+
+/* 🦇 */
+@media (prefers-color-scheme: dark) {
+}
