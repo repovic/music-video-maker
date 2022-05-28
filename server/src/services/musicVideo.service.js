@@ -27,7 +27,7 @@ const self = (module.exports = {
                     `../../temp/${videoID}.mp4`
                 );
                 ytdl(`http://www.youtube.com/watch?v=${videoID}`, {
-                    quality: "highest",
+                    quality: 18,
                 })
                     .pipe(fs.createWriteStream(outputPath))
                     .on("finish", () => {
